@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:title="thông tin nhân viên "
+         android:id="@+id/menuthongtin"
+         android:icon="@drawable/nhanvien2"
+   />
+   <item android:title="Danh sách nhân"
+         android:icon="@drawable/list"
+         android:id="@+id/menudanhsachnhanvien"
+       />
+   <item android:title="Thêm nhân viên"
+         android:icon="@drawable/adduser"
+         android:id="@+id/menuthemnhanvien"
+       />
+   <item android:title="Sửa xóa nhân viên"
+         android:icon="@drawable/bug"
+         android:id="@+id/menusuaxoanhanvien"
+       />
+    <item android:title="Vật tư">
+       <menu>
+          <item android:title="Danh sách hóa đơn"
+                android:icon="@drawable/bill"
+                android:id="@+id/menudanhsachhoadon"
+              />
+          <item android:title="Xuất Hàng"
+                android:id="@+id/menuxuathang"
+                android:icon="@drawable/shipment"
+              />
+          <item android:title="Nhập hảng"
+              android:icon="@drawable/importgoods"
+              android:id="@+id/menunhaphang">
+
+          </item>
+       </menu>
+    </item>
+
+</menu>

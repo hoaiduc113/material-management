@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+
+            android:layout_marginTop="10dp"
+            android:textColor="#ff00"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="Cập nhật nhân viên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhathonv"
+            android:layout_marginTop="10dp"
+            android:hint="họ nhân viên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/extcapnhattennv"
+            android:hint="Tên nhân viên"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="15dp"
+                android:text="giới tính"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:layout_marginLeft="10dp"
+                android:id="@+id/Grcapnhatsex"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rcapnhatnam"
+                    android:text="Nam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rcapnhatnu"
+                    android:text="Nữ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhatdiachi"
+            android:layout_marginTop="10dp"
+            android:hint="Địa chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhatngaysinh"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:hint="ngày sinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhatluong"
+            android:layout_marginTop="10dp"
+            android:hint="Lương"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/extcapnhatghichu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Ghi chú"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhattendangnhap"
+            android:layout_marginTop="10dp"
+            android:hint="Tên đăng nhập"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/extcapnhatpass"
+            android:layout_marginTop="10dp"
+            android:hint="Mật khẩu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Loại nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioGroup
+                android:id="@+id/Grcapnhatloai"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rcapnhatnhanvienthuong"
+                    android:layout_width="wrap_content"
+                    android:text="Nhân viên thường"
+                    android:layout_height="wrap_content" />
+                <RadioButton
+                    android:id="@+id/rcapnhatquantrivien"
+                    android:text="Quản trị viên"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RadioGroup>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btncapnhatnv"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#ff00"
+            android:text="Cập nhật nhân viên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

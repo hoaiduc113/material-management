@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView
+            android:textColor="#ff00"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="thông tin nhân viên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:id="@+id/maso"
+            android:src="@drawable/code"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/txtmanv"
+            android:textSize="20dp"
+            android:text="mã nhân viên"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/extmanhanvien"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"
+            android:text="mã nhân viên"
+            android:textSize="20dp"
+            android:layout_alignLeft="@+id/txtmanv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/name"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/extmanhanvien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txttennhanvien"
+            android:layout_marginLeft="40dp"
+            android:text="họ tên nhân viên"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/extmanhanvien"
+            android:layout_alignLeft="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/exttennhanvien"
+            android:text="họ tên nhân viên"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/extmanhanvien"
+            android:layout_alignLeft="@+id/txttennhanvien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+
+            android:id="@+id/sex"
+            android:src="@drawable/sex"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:layout_alignLeft="@+id/sex"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="45dp"
+            android:layout_below="@+id/txttennhanvien"
+            android:id="@+id/txtgiotinh"
+            android:text="giới tính"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/extgiotinh"
+            android:layout_alignLeft="@+id/txtgiotinh"
+            android:layout_below="@+id/exttennhanvien"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="150dp"
+            android:text="giới tính"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/home"
+            android:layout_below="@+id/sex"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txtdiachi"
+            android:text="địa chỉ"
+            android:layout_alignLeft="@+id/home"
+            android:layout_below="@+id/extgiotinh"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/extdiachi"
+            android:layout_below="@+id/extgiotinh"
+            android:layout_alignLeft="@+id/txtdiachi"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:text="địa chỉ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/born"
+            android:src="@drawable/born"
+            android:layout_below="@+id/home"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:text="ngày sinh"
+            android:layout_alignLeft="@+id/born"
+            android:layout_below="@+id/txtdiachi"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/txtngaysinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:layout_alignLeft="@+id/txtngaysinh"
+            android:layout_below="@+id/extdiachi"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/extngaysinh"
+            android:text="ngày sinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/note"
+            android:layout_below="@+id/born"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txtghichu"
+            android:text="ghi chú"
+            android:layout_alignLeft="@+id/note"
+            android:layout_below="@+id/txtngaysinh"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/extghichu"
+            android:text="ghi chú"
+            android:layout_alignLeft="@+id/txtghichu"
+            android:layout_below="@+id/extngaysinh"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/salary"
+            android:layout_below="@+id/note"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/salary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:id="@+id/txtluong"
+            android:text="lương"
+            android:layout_alignLeft="@+id/salary"
+            android:layout_below="@+id/txtghichu"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="20dp"
+            android:id="@+id/extluong"
+            android:text="lương"
+            android:layout_alignLeft="@+id/txtluong"
+            android:layout_below="@+id/extghichu"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/staff"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/extluong"
+            android:src="@drawable/staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txtloainhanvien"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/txtluong"
+            android:text="loại nhân viên"
+            android:layout_alignLeft="@+id/staff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="20dp"
+            android:text="Loại nhân viên"
+            android:layout_alignLeft="@+id/txtloainhanvien"
+            android:layout_below="@+id/extluong"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/extloainhanvien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/username"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/staff"
+            android:src="@drawable/usersname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtusername"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/txtloainhanvien"
+            android:text="Tên đăng nhập"
+            android:layout_alignLeft="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="20dp"
+            android:text="Tên đăng nhập"
+            android:layout_alignLeft="@+id/txtusername"
+            android:layout_below="@+id/txtloainhanvien"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/extusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/password"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/username"
+            android:src="@drawable/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/txtpassword"
+            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/txtusername"
+            android:text="Mật khẩu"
+            android:layout_alignLeft="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:textSize="20dp"
+            android:hint="Mật khẩu"
+            android:layout_alignLeft="@+id/txtpassword"
+            android:layout_below="@+id/extusername"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/extpasswordd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/thuong"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoaiduc.quanlyvattu.Activity.adminActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/mydrable"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/layoutcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="#12ca24"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+            </android.support.v7.widget.Toolbar>
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/mynavi"
+            app:menu="@menu/menu_nv"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nvthuong_layout_navi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

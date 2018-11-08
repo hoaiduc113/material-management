@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#ff00"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:text="thông tin nhân viên"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:weightSum="6"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="2"
+                android:src="@drawable/code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:layout_marginLeft="20dp"
+                android:layout_weight="2"
+                android:textSize="20dp"
+                android:text="mã nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/suatmanhanvien"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:text="mã nhân viên"
+                android:layout_weight="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/name"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="họ tên nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+                android:id="@+id/suatennhanvien"
+                android:text="họ tên nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:id="@+id/sex"
+                android:src="@drawable/sex"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20dp"
+                android:text="giới tính"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="45dp"
+                android:textSize="20dp"
+                android:id="@+id/suagiotinh"
+                android:text="giới tính"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/home"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:text="địa chỉ"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:id="@+id/suadiachi"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="70dp"
+                android:text="địa chỉ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/born"
+                android:src="@drawable/born"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:text="ngày sinh"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/suangaysinh"
+                android:text="ngày sinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/note"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:text="ghi chú"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:id="@+id/suaghichu"
+                android:text="ghi chú"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/salary"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/salary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:text="lương"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:textSize="20dp"
+                android:id="@+id/sualuong"
+                android:text="lương"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/staff"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/staff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:text="loại nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textSize="20dp"
+                android:text="Loại nhân viên"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/sualoainhanvien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+            <Button
+                android:textColor="#ff00"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnsua"
+                android:text="Sửa nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#ff00"
+                android:layout_marginTop="20dp"
+                android:id="@+id/btnxoa"
+                android:layout_marginLeft="80dp"
+                android:text="Xóa nhân viên"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
